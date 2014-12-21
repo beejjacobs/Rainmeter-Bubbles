@@ -9,13 +9,14 @@ cyan   =   0, 188, 212
 green  =  66, 189,  65
 teal   =  77, 182, 172
 pink   = 233,  30,  99
+purple = 103,  58, 183
 white  = 255, 255, 255, 255
 
 ;*********************************************************************************
 ; OPTIONS
 ;
 ;  Radius[defaults]: 40,80
-;  Colours[defaults]: blue, cyan, green, magenta, orange, pink, teal, yellow
+;  Colours[defaults]: blue, cyan, green, magenta, orange, pink, teal, yellow, purple
 ;  Download/Upload: in bytes 
 ;
 ;*********************************************************************************
@@ -46,4 +47,4 @@ uploadColour=#cyan#
 uploadMax=2125000
 
 clockRadius=450
-clockColour=#blue#
+clockColour=#purple#

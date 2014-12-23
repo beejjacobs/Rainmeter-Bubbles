@@ -1,50 +1,59 @@
 [Variables]
-yellow = 255, 235,  59
-orange = 255, 152,   0
-red    = 229,  28,  35
-magenta= 186, 104, 200
-violet = 103,  58, 183
-blue   =   3, 169, 244
-cyan   =   0, 188, 212
-green  =  66, 189,  65
-teal   =  77, 182, 172
-pink   = 233,  30,  99
-purple = 103,  58, 183
-white  = 255, 255, 255, 255
+;*********************************************************************************
+;MATERIAL DESIGN COLOURS
+;*********************************************************************************
+red         = 244,  67,  54
+pink        = 233,  30,  99
+purple      = 156,  39, 176
+deeppurple  = 103,  58, 183
+indigo      =  63,  81, 181
+blue        =  33, 150, 243
+lightblue   =   3, 169, 244
+cyan        =   0, 188, 212
+teal        =   0, 150, 136
+green       =  76, 175,  80
+lightgreen  = 139, 195,  74
+lime        = 205, 220,  57
+yellow      = 255, 235,  59
+amber       = 255, 193,   7
+orange      = 255, 152,   0
+deeporange  = 255,  87,  34
+bluegrey    =  96, 125, 139
 
 ;*********************************************************************************
 ; OPTIONS
 ;
-;  Radius[defaults]: 40,80
-;  Colours[defaults]: blue, cyan, green, magenta, orange, pink, teal, yellow, purple
-;  Download/Upload: in bytes 
+;  Download/Upload: in bytes
 ;
 ;*********************************************************************************
 cpuRadius=80
-cpuColour=#magenta#
+cpuColour=#deeppurple#
 
-cpuTempRadius=40
-cpuTempColour=#blue#
+cpuTempRadius=50
+cpuTempColour=#purple#
 
 gpuRadius=80
 gpuColour=#green#
 
-gpuTempRadius=40
-gpuTempColour=#teal#
+gpuTempRadius=50
+gpuTempColour=#lightgreen#
 
 ramRadius=80
-ramColour=#pink#
+ramColour=#indigo#
 
-swapRadius=40
-swapColour=#teal#
+swapRadius=50
+swapColour=#blue#
 
 downloadRadius=80
-downloadColour=#orange#
+downloadColour=#red#
 downloadMax=6500000
 
-uploadRadius=40
-uploadColour=#cyan#
+uploadRadius=50
+uploadColour=#orange#
 uploadMax=2125000
 
-clockRadius=450
-clockColour=#purple#
+diskRadius=80
+diskColour=#blue#
+
+clockRadius=150
+clockColour=#bluegrey#
